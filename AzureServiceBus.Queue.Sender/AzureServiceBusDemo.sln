@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Topic.Sende
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Services", "..\AzureServiceBus.KeyVaultService\AzureServiceBus.Services.csproj", "{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Functions", "..\AzureServiceBus.Functions\AzureServiceBus.Functions.csproj", "{61017D7F-4085-43CD-9CF3-D2A4F93D5633}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

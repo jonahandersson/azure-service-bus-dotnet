@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using AzureServiceBus.Services;
 using Azure.Messaging.ServiceBus;
+using Newtonsoft.Json;
 
 namespace AzureServiceBus.Queue.Sender
 {
@@ -29,10 +30,6 @@ namespace AzureServiceBus.Queue.Sender
             ServiceBusClient client;
             ServiceBusSender sender;
 
-            // number of messages to be sent to the queue
-            const int numOfMessages = 3;
-
-
             // The Service Bus client types are safe to cache and use as a singleton for the lifetime
             // of the application, which is best practice when messages are being published or read
             // regularly. Set the transport type to AmqpWebSockets so that the ServiceBusClient uses the port 443. 
@@ -42,24 +39,28 @@ namespace AzureServiceBus.Queue.Sender
             client = new ServiceBusClient(connectionString, clientOptions);
             sender = client.CreateSender(queueName);
 
+            var persons = GetListOfPeopleFromJsonFile();
             // create a batch 
             using ServiceBusMessageBatch messageBatch = await sender.CreateMessageBatchAsync();
 
-            for (int i = 1; i <= numOfMessages; i++)
+            foreach (var person in persons)
             {
                 // try adding a message to the batch
-                if (!messageBatch.TryAddMessage(new ServiceBusMessage($"Message {i}")))
+               
+                if (!messageBatch.TryAddMessage(
+                    new ServiceBusMessage($"Hello {person.FirstName} {person.LastName} ! Welcome to Azure Back to School!")))
                 {
+
                     // if it is too large for the batch
-                    throw new Exception($"The message {i} is too large to fit in the batch.");
+                    throw new Exception($"The queue message for {person}  is too large to fit in the batch.");
                 }
             }
-
+          
             try
             {
                 // Use the producer client to send the batch of messages to the Service Bus queue
                 await sender.SendMessagesAsync(messageBatch);
-                Console.WriteLine($"A batch of {numOfMessages} messages has been published to the queue.");
+                Console.WriteLine($"A batch of {persons.Count} messages has been published to the queue.");
             }
             finally
             {
@@ -71,6 +72,30 @@ namespace AzureServiceBus.Queue.Sender
 
             Console.WriteLine("Press any key to end the application");
             Console.ReadKey();
+        }
+
+        private static List<Person> GetListOfPeopleFromJsonFile()
+        {
+            try
+            {
+                List<Person> persons = new List<Person>();
+                using (StreamReader streamReader = new StreamReader("data/people.json"))
+                {
+                    string json = streamReader.ReadToEnd();
+                    if (json != null)
+                    {                      
+
+                        persons = JsonConvert.DeserializeObject<List<Person>>(json);
+                    } 
+                }
+                return persons;
+            }
+            catch (Exception)
+            {
+              
+                throw new Exception($"Hey! Something went wrong reading the json file. Check what's wrong. ");
+            }           
+
         }
     }
 }
