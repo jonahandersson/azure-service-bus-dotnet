@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.Queue.Recei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Topic.Sender", "..\AzureServiceBus.Topic.Sender\AzureServiceBus.Topic.Sender.csproj", "{606BA726-F55E-4365-97B3-81EB20DBA38B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Services", "..\AzureServiceBus.KeyVaultService\AzureServiceBus.Services.csproj", "{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{606BA726-F55E-4365-97B3-81EB20DBA38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{606BA726-F55E-4365-97B3-81EB20DBA38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{606BA726-F55E-4365-97B3-81EB20DBA38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

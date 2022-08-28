@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/AzureServiceBus.Queue.Sender/appSettings.json
+/AzureServiceBus.KeyVaultService/appsettings.json
+/AzureServiceBus.Queue.Sender/Data/people.json
