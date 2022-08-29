@@ -10,7 +10,6 @@ namespace AzureServiceBus.Services
     {
         public string AzureKeyVaultName { get; set; }
         public string AzureKeyVaultConnectionString { get; set; }
-
         public bool AzureKeyVaultEnabled { get; set; }
         public string AzureKeyVaultUri { get; set; }
 
