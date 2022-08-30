@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.Queue.Sender", "AzureServiceBus.Queue.Sender.csproj", "{3E5B0E86-78E8-46D0-B1F8-391B29D7E5CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.Queue.Receiver", "..\AzureServiceBus.Queue.Receiver\AzureServiceBus.Queue.Receiver.csproj", "{A77E6B32-6DF0-4CB4-A3BD-1AA9F283C51E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.Services", "..\AzureServiceBus.KeyVaultService\AzureServiceBus.Services.csproj", "{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Topic.Sender", "..\AzureServiceBus.Topic.Sender\AzureServiceBus.Topic.Sender.csproj", "{606BA726-F55E-4365-97B3-81EB20DBA38B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.Functions", "..\AzureServiceBus.Functions\AzureServiceBus.Functions.csproj", "{61017D7F-4085-43CD-9CF3-D2A4F93D5633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{3E5B0E86-78E8-46D0-B1F8-391B29D7E5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E5B0E86-78E8-46D0-B1F8-391B29D7E5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E5B0E86-78E8-46D0-B1F8-391B29D7E5CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A77E6B32-6DF0-4CB4-A3BD-1AA9F283C51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A77E6B32-6DF0-4CB4-A3BD-1AA9F283C51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A77E6B32-6DF0-4CB4-A3BD-1AA9F283C51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A77E6B32-6DF0-4CB4-A3BD-1AA9F283C51E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{606BA726-F55E-4365-97B3-81EB20DBA38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{606BA726-F55E-4365-97B3-81EB20DBA38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{606BA726-F55E-4365-97B3-81EB20DBA38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{606BA726-F55E-4365-97B3-81EB20DBA38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD2E8D1-F4E2-4F1C-93DE-06392D3FF45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61017D7F-4085-43CD-9CF3-D2A4F93D5633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
