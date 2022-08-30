@@ -11,6 +11,11 @@
 
 #### Prerequisites:
 
+- SendGrid API 
+- Azure Subscription to create Azure Resources
+- Azure Service Bus Namespace 
+- Azure Service Bus Connection Strings/SAS
+- Azure Service Bus Queue Name
 
 #### Tools and Packages: 
 
