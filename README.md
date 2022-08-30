@@ -20,7 +20,7 @@
 - NuGet packages for Newtonsoft.Json, etc.
 - Azure Service Bus 
 - SendGrid 
-- Azure Functioons (Latest Version) 
+- Azure Functions (Latest Version) 
 
 #### Learning References:
 
