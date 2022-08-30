@@ -26,3 +26,5 @@
 
 - <a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview?WT.mc_id=AZ-MVP-5004251" target="_blank">What is Azure Service Bus</a>
 - <a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-samples">Service Bus messaging samples or example</a>
+- <a href="https://docs.microsoft.com/en-us/azure/azure-functions/?WT.mc_id=AZ-MVP-5004251" target="_blank">Azure Functions Documentation</a>
+- <a href="https://www.twilio.com/blog/send-emails-using-the-sendgrid-api-with-dotnetnet-6-and-csharp" target="_blank">How to send Emails with C# and .NET 6 using the SendGrid API</a>
