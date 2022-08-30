@@ -8,6 +8,10 @@ using SendGrid.Helpers.Mail;
 
 namespace AzureServiceBus.Functions
 {
+    /// <summary>
+    /// This is an Azure Function with Service Bus Trigger that receives 
+    /// messages fromm Azure Service Bus Queueue and send an email using SendGrid API
+    /// </summary>
     public class ServiceBusQueueReceiver
     {
         [FunctionName("GetMessagesFromAzureBackToSchoolQueue")]
@@ -25,11 +29,8 @@ namespace AzureServiceBus.Functions
             }
             catch (Exception ex)
             {
-                throw;
-            }
-            
-           
-
+                log.LogError($"Exception: {ex.Message}");              
+            }           
         }
 
         private async Task SendEmailAsync(string myQueueMessageItem)
