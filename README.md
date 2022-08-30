@@ -4,7 +4,7 @@
 
 <p>This is an example demo code for Jonah's community contribution for <a href="https://azurebacktoschool.github.io/edge%20case/azure-back-to-school-2022-speakers/" target="_blank">Azure Back to School 2022</a> - A Technical Overview of Azure Service Bus </p>
 
-
+![alt text](https://jonahsstorage.blob.core.windows.net/jcaphotos/AzureBackToSchool%202022%20Azure%20Service%20Bus%20.png)
 #### Description:
 
 .NET 6.0 example implementation of Azure Service Bus Queue Sender app (in .NET 6 Console) and Receiver App (Azure Functions) 
