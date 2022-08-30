@@ -37,6 +37,7 @@
 
 
 
-#### Contact Author Jonah Andersson for contributions and collaboration
+#### Contact Author Jonah Andersson for contributions and collaborate on <a href="https://github.com/jonahandersson/azurebacktoschool2022-azure-service-bus-dotnet/issues" target="_blank">enhancements/issues</a>
 - Twitter <a href="https://www.twitter.com/cjkodare" target="_blank">@cjkodare</a>
 - LinkedIn <a href="https://www.linkedin.com/in/jonahandersson" target="_blank">Jonah Andersson</a>
+
