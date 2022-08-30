@@ -33,3 +33,10 @@
 - <a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-samples">Service Bus messaging samples or example</a>
 - <a href="https://docs.microsoft.com/en-us/azure/azure-functions/?WT.mc_id=AZ-MVP-5004251" target="_blank">Azure Functions Documentation</a>
 - <a href="https://www.twilio.com/blog/send-emails-using-the-sendgrid-api-with-dotnetnet-6-and-csharp" target="_blank">How to send Emails with C# and .NET 6 using the SendGrid API</a>
+- <a href="https://docs.sendgrid.com/for-developers/sending-email/api-getting-started" target="_blank">Getting Started with SendGrid API / Twilio</a>
+
+
+
+#### Contact Author Jonah Andersson for contributions and collaboration
+- Twitter <a href="https://www.twitter.com/cjkodare" target="_blank">@cjkodare</a>
+- LinkedIn <a href="https://www.linkedin.com/in/jonahandersson" target="_blank">Jonah Andersson</a>
