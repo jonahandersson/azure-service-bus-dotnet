@@ -1,5 +1,5 @@
 # A Technical Overview of Azure Service Bus Example Code Demo
-### Azure Back to School 2022 by Jonah Andersosn 
+### Azure Back to School 2022 by <a href="https://linkedin.com/in/jonahandersson" target="_blank">Jonah Anderssson</a>
 
 <p>This is an example demo code for Jonah's community contribution for <a href="https://azurebacktoschool.github.io/edge%20case/azure-back-to-school-2022-speakers/" target="_blank">Azure Back to School 2022</a> - A Technical Overview of Azure Service Bus </p>
 
