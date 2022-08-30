@@ -8,6 +8,18 @@
 
 .NET 6.0 example implementation of Azure Service Bus Queue Sender app (in .NET 6 Console) and Receiver App (Azure Functions) 
 
+#### Prerequisites:
+
+
+#### Tools and Packages: 
+
+- VS Code or Visual Studio Code
+- SDK .NET for .NET 6
+- C# Programming Language
+- NuGet packages for Newtonsoft.Json, etc.
+- Azure Service Bus 
+- SendGrid 
+- Azure Functioons (Latest Version) 
 
 #### Learning References:
 
