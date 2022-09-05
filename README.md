@@ -9,6 +9,7 @@
 
 .NET 6.0 example implementation of Azure Service Bus Queue Sender app (in .NET 6 Console) and Receiver App (Azure Functions) 
 
+##### Related Repository for AzureBackToSchool 2022 - <a href="https://github.com/jonahandersson/azurebacktoschool2022-azure-durable-functions-dotnet" target="_blank">Azure Service Bus for .NET Developers</a>
 #### Prerequisites:
 
 - SendGrid API 
